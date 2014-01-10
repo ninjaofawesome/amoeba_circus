@@ -1,0 +1,2 @@
+class AmoebaGeneologysController < ApplicationController
+end

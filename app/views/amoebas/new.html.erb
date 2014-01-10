@@ -1,0 +1,71 @@
+<h1>Fuck yeah, AMOEBAS!</h1>
+
+<%= form_for @amoebas do |x| %>
+	<%= x.label :amoeba_name, "Amoeba Name" %>:
+	<%= x.text_field :amoeba_name %>
+	<br>
+	<br>
+
+	<b><%= x. label :amoeba_talent, "Primary Amoeba Talent:" %></b>
+	<br>
+	<%= x.label :primary_talent_acrobat, "Acrobat:" %>
+	<%= x.check_box :primary_talent_acrobat %>
+	<br>
+	<%= x.label :primary_talent_contortionist, "Contortionist:" %>
+	<%= x.check_box :primary_talent_contortionist %>
+	<br>
+	<%= x.label :primary_talent_clown, "Clown:" %>
+	<%= x.check_box :primary_talent_clown %>
+	<br>
+	<%= x.label :primary_talent_juggler, "Juggler:" %>
+	<%= x.check_box :primary_talent_juggler %>
+	<br>
+	<%= x.label :primary_talent_freak, "Freak:" %>
+	<%= x.check_box :primary_talent_freak %>
+	<br>
+	<br>
+
+	<b><%= x. label :secondary_amoeba_talent, "Lesser Amoeba Talent:" %></b>
+	<br>
+	<%= x.label :secondary_talent_acrobat, "Acrobat:" %>
+	<%= x.check_box :secondary_talent_acrobat %>
+	<br>
+	<%= x.label :secondary_talent_contortionist, "Contortionist:" %>
+	<%= x.check_box :secondary_talent_contortionist %>
+	<br>
+	<%= x.label :secondary_talent_clown, "Clown:" %>
+	<%= x.check_box :secondary_talent_clown %>
+	<br>
+	<%= x.label :secondary_talent_juggler, "Juggler:" %>
+	<%= x.check_box :secondary_talent_juggler %>
+	<br>
+	<%= x.label :secondary_talent_freak, "Freak:" %>
+	<%= x.check_box :secondary_talent_freak %>
+	<br>
+	<br>
+
+	<b><%= x. label :tertiary_amoeba_talent, "Weakest Amoeba Talent:" %></b>
+	<br>
+	<%= x.label :tertiary_talent_acrobat, "Acrobat:" %>
+	<%= x.check_box :tertiary_talent_acrobat %>
+	<br>
+	<%= x.label :tertiary_talent_contortionist, "Contortionist:" %>
+	<%= x.check_box :tertiary_talent_contortionist %>
+	<br>
+	<%= x.label :tertiary_talent_clown, "Clown:" %>
+	<%= x.check_box :tertiary_talent_clown %>
+	<br>
+	<%= x.label :tertiary_talent_juggler, "Juggler:" %>
+	<%= x.check_box :tertiary_talent_juggler %>
+	<br>
+	<%= x.label :tertiary_talent_freak, "Freak:" %>
+	<%= x.check_box :tertiary_talent_freak %>
+	<br>
+	<br>
+	<%= x.label :parent, "Who is the parent of this amoeba? (If brand new, enter 'ringmaster')" %>:
+	<%= x.text_field :parent %>
+	<br>
+	<br>
+
+	<%= x.submit("Make Them Amoebas!") %>
+<% end %>

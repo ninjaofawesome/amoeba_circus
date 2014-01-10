@@ -1,0 +1,2 @@
+class RingmastersController < ApplicationController
+end

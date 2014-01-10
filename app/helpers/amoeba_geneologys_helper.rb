@@ -1,0 +1,2 @@
+module AmoebaGeneologysHelper
+end

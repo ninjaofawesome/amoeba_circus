@@ -1,4 +1,17 @@
 AmoebaProject::Application.routes.draw do
+
+    resources :ringmaster
+    resources :amoeba
+    resources :amoeba_geneology
+    resources :show_type
+
+root :to => 'ringmasters#index'
+         
+
+
+
+    
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

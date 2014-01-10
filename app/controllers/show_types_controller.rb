@@ -1,0 +1,2 @@
+class ShowTypesController < ApplicationController
+end
